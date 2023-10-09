@@ -10,6 +10,7 @@
 
 :root {
     --brand-color: #0061ff;
+    --light-blue: #b4d0e7;
   }
 
   button {
@@ -58,6 +59,10 @@ a {
     
   }
 
+ul button {
+    margin-right: 20px;
+}
+
 /* underline that appears on hover */
   
 a:not(.not-under)::after {
@@ -77,8 +82,6 @@ a:not(#nav-logo):hover::after {
 
 /* /underline that appears on hover */
   
-
-
 
 a img {
     display: block;
