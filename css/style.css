@@ -17,6 +17,7 @@
     background-color: var(--brand-color);
     color: white;
     border: none;
+    padding: 10px 20px;
   }
 
 /* TYPOGRAPHY */
@@ -24,6 +25,15 @@
 * {
     font-size: 16px; /* everything is 16px besides titles */
     font-family: 'Open Sans', sans-serif;
+}
+
+h2 {
+    font-size: 64px;
+    font-weight: 800;
+}
+
+p {
+    line-height: 150%;
 }
 
 /* HEADER */
@@ -80,7 +90,7 @@ a:not(#nav-logo):hover::after {
     width: 100%;
   }
 
-/* /underline that appears on hover */
+/* *********************************** */
   
 
 a img {
@@ -93,10 +103,6 @@ a img {
 
 
 
-#btn-start {
-    padding: 10px 20px;
-}
-
 
 
 
@@ -105,5 +111,34 @@ a img {
 .jumbo {
     height: 740px;
     width: 100%;
-    border: 1px solid black;
+    background-color: var(--light-blue);
+}
+
+.jumbo-container {
+    width: 1180px;
+    margin: 0 auto;
+}
+
+.jumbo-container h2 {
+    margin-top: 100px;
+    margin-bottom: 80px;
+}
+
+.jumbo-bottom {
+    display: flex;
+}
+
+.jumbo-container .jumbo-col-left {
+    width: calc(100% / 3);
+    padding-right: 30px;
+}
+
+.jumbo-container .jumbo-col-left p, button {
+    margin-bottom: 40px;
+}
+
+.jumbo-container .jumbo-col-left i {
+    font-size: 42px;
+    margin-top: 40px;
+    margin-bottom: 30px;
 }
