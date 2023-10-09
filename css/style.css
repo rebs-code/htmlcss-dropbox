@@ -8,6 +8,16 @@
 
 /* COMMON */
 
+:root {
+    --brand-color: #0061ff;
+  }
+
+  button {
+    background-color: var(--brand-color);
+    color: white;
+    border: none;
+  }
+
 /* TYPOGRAPHY */
 
 * {
@@ -26,27 +36,31 @@ header {
 /* NAVBAR */
 
 nav {
-
+    display: flex;
+    justify-content: space-between;
     width: 100%;
 }
   
 ul {
     list-style-type: none;
     display: flex;
+    align-items: center;
   }
   
   
 a {
     position: relative;
     display: block;
+    align-items: center;
     padding: 31px 20px;
     text-decoration: none;
     color: black;
+    
   }
 
 /* underline that appears on hover */
   
-a:not(#nav-logo)::after {
+a:not(.not-under)::after {
     content: '';
     display: block;
     height: 2px;
@@ -64,10 +78,24 @@ a:not(#nav-logo):hover::after {
 /* /underline that appears on hover */
   
 
-#nav-logo {
-    padding-bottom: 0;
+
+
+a img {
+    display: block;
 }
-  
+
+.not-under {
+    padding-bottom: 28px;
+}
+
+
+
+#btn-start {
+    padding: 10px 20px;
+}
+
+
+
 
 /* JUMBOTRON */
 
