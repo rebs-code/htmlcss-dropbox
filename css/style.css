@@ -5,3 +5,74 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* COMMON */
+
+/* TYPOGRAPHY */
+
+* {
+    font-size: 16px; /* everything is 16px besides titles */
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* HEADER */
+
+header {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+
+/* NAVBAR */
+
+nav {
+
+    width: 100%;
+}
+  
+ul {
+    list-style-type: none;
+    display: flex;
+  }
+  
+  
+a {
+    position: relative;
+    display: block;
+    padding: 31px 20px;
+    text-decoration: none;
+    color: black;
+  }
+
+/* underline that appears on hover */
+  
+a:not(#nav-logo)::after {
+    content: '';
+    display: block;
+    height: 2px;
+    width: 0;
+    background-color: black; 
+    position: absolute;
+    bottom: -2px; /* distance between the underline and the link in the navbar */
+    left: 0;
+  }
+  
+a:not(#nav-logo):hover::after {
+    width: 100%;
+  }
+
+/* /underline that appears on hover */
+  
+
+#nav-logo {
+    padding-bottom: 0;
+}
+  
+
+/* JUMBOTRON */
+
+.jumbo {
+    height: 740px;
+    width: 100%;
+    border: 1px solid black;
+}
