@@ -13,7 +13,7 @@
     --light-blue: #b4d0e7;
   }
 
-  button {
+button {
     background-color: var(--brand-color);
     color: white;
     border: none;
@@ -59,7 +59,7 @@ ul {
   }
   
   
-a {
+header li a {
     position: relative;
     display: block;
     align-items: center;
@@ -72,6 +72,7 @@ a {
 ul button {
     margin-right: 20px;
 }
+
 
 /* underline that appears on hover */
   
@@ -133,9 +134,13 @@ a img {
     padding-right: 30px;
 }
 
-.jumbo-container .jumbo-col-left p, button {
+.jumbo-container .jumbo-col-left p,
+.jumbo-container .jumbo-col-left button {
     margin-bottom: 40px;
 }
+
+
+
 
 .jumbo-container .jumbo-col-left i {
     font-size: 42px;
