@@ -104,9 +104,6 @@ a img {
 
 
 
-
-
-
 /* JUMBOTRON */
 
 .jumbo {
@@ -122,7 +119,7 @@ a img {
 .jumbo-container h2 {
     margin-top: 100px;
     margin-bottom: 80px;
-    overflow: hidden;
+    padding-right: 80px;
 }
 
 .jumbo-bottom {
@@ -138,8 +135,6 @@ a img {
 .jumbo-container .jumbo-col-left button {
     margin-bottom: 40px;
 }
-
-
 
 
 .jumbo-container .jumbo-col-left i {
