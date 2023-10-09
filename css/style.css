@@ -11,6 +11,7 @@
 :root {
     --brand-color: #0061ff;
     --light-blue: #b4d0e7;
+    --border-grey: #d0d0d3;
   }
 
 button {
@@ -20,6 +21,11 @@ button {
     padding: 10px 20px;
   }
 
+.central {
+    width: 1180px;
+    margin: 0 auto;
+}
+
 /* TYPOGRAPHY */
 
 * {
@@ -27,7 +33,7 @@ button {
     font-family: 'Open Sans', sans-serif;
 }
 
-h2 {
+h1 {
     font-size: 64px;
     font-weight: 800;
 }
@@ -111,12 +117,7 @@ a img {
     background-color: var(--light-blue);
 }
 
-.jumbo-container {
-    width: 1180px;
-    margin: 0 auto;
-}
-
-.jumbo-container h2 {
+.jumbo-container h1 {
     margin-top: 100px;
     margin-bottom: 80px;
     padding-right: 80px;
@@ -153,3 +154,47 @@ a img {
     display: block;
     position: absolute;
 }
+
+/* MAIN */
+
+
+/* FIRST SECTION */
+
+main h2 {
+    margin-top: 160px;
+    font-size: 32px;
+}
+
+/* BILLING SELECTOR */
+
+.billing-selector {
+    margin-top: 80px;
+    display: flex;
+}
+
+.billing-selector label {
+    margin-right: 50px; 
+    display: flex;
+    align-items: center;
+}
+
+.billing-selector input {
+    margin-right: 5px; 
+}
+
+.billing-selector input[type="radio"] {
+    appearance: none;
+    width: 20px; 
+    height: 20px; 
+    border: 1px solid var(--border-grey); 
+    border-radius: 50%; 
+    outline: none; 
+    margin-right: 5px;
+    
+}
+
+.billing-selector input[type="radio"]:checked { /* Blue background color when selected */
+    border: 6px solid var(--brand-color);
+}
+
+/* ***************************** */
