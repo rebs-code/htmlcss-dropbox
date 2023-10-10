@@ -55,7 +55,9 @@ header {
 nav {
     display: flex;
     justify-content: space-between;
+    /* align-items: center; */
     width: 100%;
+    line-height: 80px;
 }
   
 ul {
@@ -68,8 +70,7 @@ ul {
 header li a {
     position: relative;
     display: block;
-    align-items: center;
-    padding: 31px 20px;
+    padding: 0 20px;
     text-decoration: none;
     color: black;
     
@@ -104,9 +105,9 @@ a img {
     display: block;
 }
 
-.not-under {
+/* .not-under {
     padding-bottom: 28px;
-}
+} */
 
 
 
@@ -145,7 +146,8 @@ a img {
 }
 
 .jumbo-col-right  {
-    width: calc(2/3 * 100%);
+    /* width: calc(2/3 * 100%); */
+    width: 100%;
     position: relative;
 }
 
