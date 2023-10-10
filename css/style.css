@@ -43,6 +43,10 @@ button {
     color: var(--border-grey)
 }
 
+img {
+    width: 100%;
+}
+
 /* TYPOGRAPHY */
 
 * {
@@ -76,9 +80,9 @@ header {
 nav {
     display: flex;
     justify-content: space-between;
-    /* align-items: center; */
     width: 100%;
     line-height: 80px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.4);
 }
   
 ul {
@@ -326,10 +330,27 @@ article:nth-child(4) .right-col-article button {
     margin: 0 auto;
 }
 
+/* ***************************** */
+
+/* SECOND SECTION */
+
+.second-section {
+    display: flex;
+    margin-top: 150px;
+}
+
+/* second section left column */
+
+.second-section .section2-col-left {
+    width: calc(2/3 * 100%);
+}
 
 
+/* second section right column */
 
-
+.second-section .section2-col-right {
+    flex-grow: 1;
+}
 
 
 /* ***************************** */
