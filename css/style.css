@@ -360,3 +360,21 @@ article:nth-child(4) .right-col-article button {
 
 
 /* ***************************** */
+
+/* THIRD SECTION */
+
+.section3-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 60px;
+    padding-top: 60px;
+}
+
+.section3-card {
+    width: calc(100% / 3 - 60px);
+    height: 500px;
+    border: 1px solid black;
+}
+
+
+/* ***************************** */
