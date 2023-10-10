@@ -26,6 +26,23 @@ button {
     margin: 0 auto;
 }
 
+.central-small {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.border {
+    border: 1px solid var(--border-grey);
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.grey {
+    color: var(--border-grey)
+}
+
 /* TYPOGRAPHY */
 
 * {
@@ -40,6 +57,10 @@ h1 {
 
 p {
     line-height: 150%;
+}
+
+h3 {
+    font-size: 25px;
 }
 
 /* HEADER */
@@ -188,7 +209,7 @@ main h2 {
     appearance: none;
     width: 20px; 
     height: 20px; 
-    border: 1px solid var(--border-grey); 
+    border: 1px solid var(--border-grey);
     border-radius: 50%; 
     outline: none; 
     margin-right: 5px;
@@ -198,5 +219,117 @@ main h2 {
 .billing-selector input[type="radio"]:checked { /* Blue background color when selected */
     border: 6px solid var(--brand-color);
 }
+
+/* ***************************** */
+
+
+/* ARTICLE SECTION */
+
+.art-card {
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+article {
+    width: calc(100% / 3 - 20px);
+    
+    
+}
+
+/* article header */
+
+.art-header {
+    text-align: center;
+    padding: 15px 0;
+    border-bottom: 1px solid var(--border-grey);
+}
+
+/* article main */
+
+.art-main {
+    padding: 40px 30px;
+}
+
+.art-main button {
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+section .art-main .bold + p {
+    margin-bottom: 60px;
+}
+
+section .art-main h3, section .art-main p:not(.bold) {
+    margin-bottom: 30px;
+}
+
+section .art-main hr {
+    width: 25%;
+    margin-top: 15%;
+}
+
+/* article bottom */
+
+.art-bottom {
+    padding: 55px 30px;
+}
+
+.art-bottom h4 {
+    margin-bottom: 40px;
+    font-weight: 700;
+}
+
+.art-bottom p {
+    margin-bottom: 30px;
+}
+
+
+.fa-check {
+    color: var(--brand-color);
+}
+
+
+/* last article that wraps */
+
+article:nth-child(4) {
+    flex-basis: 100%; 
+}
+
+article:nth-child(4) .art-main {
+    display: flex;
+    padding-bottom: 35px;
+}
+
+
+article:nth-child(4) .left-col-article {
+    width: calc(2/3 * 100%);
+    padding-right: 50px;
+}
+
+article:nth-child(4) .right-col-article {
+    flex-grow: 1;
+    padding-left: 50px;
+}
+
+article:nth-child(4) .left-col-article p {
+margin-bottom: 0;
+}
+
+article:nth-child(4) .left-col-article .bold {
+    margin-bottom: 60px;
+}
+
+article:nth-child(4) .right-col-article button {
+    margin: 0 auto;
+}
+
+
+
+
+
+
 
 /* ***************************** */
