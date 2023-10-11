@@ -532,9 +532,6 @@ color: #61082b;
     margin-bottom: 70px;
 }
 
-.faq-container hr {
-    margin: 45px auto;
-}
 
  .faq-container hr:last-of-type {  /*gives the last hr element a bigger margin bottom, if we were to add more faqs, this would still work */
     margin-bottom: 150px;
@@ -543,16 +540,17 @@ color: #61082b;
 .faq-div {
     display: flex;
     justify-content: space-between;
+    padding-top: 45px;
+    padding-bottom: 45px;
     padding-right: 60px;
     cursor: pointer;
+    overflow:hidden;
 }
 
 .answer-div {
-    max-height: 0;
     opacity: 0;
-    padding-top: 50px;
-    padding-bottom: 30px;
     display: none;
+    padding-bottom: 30px;
 }
 
 
@@ -564,5 +562,11 @@ color: #61082b;
 .faq-div:hover i {
     transform: rotate(180deg);
 }
+
+/* ***************************** */
+
+/* FOOTER */
+
+
 
 /* ***************************** */
