@@ -451,7 +451,11 @@ article:nth-child(4) .right-col-article button {
     top: 50%;
     left: 50%;
     filter: invert(1);
+    max-width: calc(100% - 120px); /* Set max-width with padding effect */
+}
 
+.border-green {
+    border: 15px solid #d1e9cd;
 }
 
 /* ***************************** */
