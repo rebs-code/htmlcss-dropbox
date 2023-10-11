@@ -94,6 +94,10 @@ img {
     border: none;
 }
 
+.strong {
+    font-weight: 700;
+}
+
 
 /* TYPOGRAPHY */
 
@@ -500,21 +504,46 @@ article:nth-child(4) .right-col-article button {
 
 .banner-bottom {
     display: flex;
-    padding: 150px 400px;
-    align-items: center;
-    justify-content: space-around;
+    padding: 150px;
     background-color: var(--light-blue);
     margin-bottom: 170px;
 }
 
+.banner-bottom-container {
+    display: flex;
+}
+
 .banner-bottom h2 {
 margin: 0;
-padding-right: 50px;
+padding-right: 300px;
 color: #61082b;
 }
 
 .banner-bottom a button {
     white-space: nowrap;
+    padding: 10px 50px;
+}
+
+/* ***************************** */
+
+/* section FAQ */
+
+.faq-container h2 {
+    margin-bottom: 70px;
+}
+
+.faq-container hr {
+    margin: 45px auto;
+}
+
+ .faq-container hr:last-of-type {  /*gives the last hr element a bigger margin bottom, if we were to add more faqs, this would still work */
+    margin-bottom: 150px;
+}
+
+.faq-div {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 60px;
 }
 
 /* ***************************** */
