@@ -544,6 +544,25 @@ color: #61082b;
     display: flex;
     justify-content: space-between;
     padding-right: 60px;
+    cursor: pointer;
+}
+
+.answer-div {
+    max-height: 0;
+    opacity: 0;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    display: none;
+}
+
+
+.faq-div:hover + .answer-div {
+    opacity: 1;
+    display: block;
+}
+
+.faq-div:hover i {
+    transform: rotate(180deg);
 }
 
 /* ***************************** */
