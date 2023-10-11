@@ -369,6 +369,7 @@ article:nth-child(4) .right-col-article button {
     flex-wrap: wrap;
     gap: 60px;
     padding-top: 60px;
+    margin-bottom: 220px;
 }
 
 .section3-card {
@@ -381,3 +382,27 @@ article:nth-child(4) .right-col-article button {
 
 
 /* ***************************** */
+
+
+/* FOURTH SECTION */
+
+/* section 4 top */
+
+.section4-top {
+    padding-right: 450px;
+}
+
+.section4-top h2 {
+    margin-bottom: 80px;
+}
+
+.section4-top p {
+    margin-bottom: 150px;
+}
+
+/* section 4 bottom banner */
+
+
+
+/* ***************************** */
+
