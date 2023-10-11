@@ -1,0 +1,27 @@
+main {
+    padding-top: 90px;
+    
+}
+
+main h1 {
+    text-align: center;
+}
+
+.content-section {
+    display: flex;
+    justify-content: space-around;
+    
+    margin-bottom: 50px;
+    margin-top: 20px;
+  
+}
+
+.image-container img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+.text-container {
+    display: flex;
+    padding: 30px;
+}
