@@ -58,8 +58,12 @@ img {
     background-color: #a2d39b;
 }
 
-.bg-red {
+.bg-red-bright {
     background-color: #ff1c1c;
+}
+
+.bg-red {
+    background-color: #d5001f;
 }
 
 .bg-light-blue {
@@ -76,6 +80,10 @@ img {
 
 .bg-yellow {
     background-color: #ffd830;
+}
+
+.bg-brand {
+    background-color: var(--light-blue);
 }
 
 
