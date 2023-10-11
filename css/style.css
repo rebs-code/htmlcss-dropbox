@@ -54,6 +54,31 @@ img {
     display: block;
 }
 
+.bg-green {
+    background-color: #a2d39b;
+}
+
+.bg-red {
+    background-color: #ff1c1c;
+}
+
+.bg-light-blue {
+    background-color: #0093ce;
+}
+
+.bg-blue {
+    background-color: #0d2481;
+}
+
+.bg-red-burn {
+    background-color: #61082b;
+}
+
+.bg-yellow {
+    background-color: #ffd830;
+}
+
+
 /* TYPOGRAPHY */
 
 * {
@@ -402,7 +427,32 @@ article:nth-child(4) .right-col-article button {
 
 /* section 4 bottom banner */
 
+.banner-container {
+    display: flex;
+}
 
+.banner-col {
+    height: calc(100vw / 3);
+    width: calc(100% / 3);
+    border: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.banner-card {
+    height: 50%;
+    width: 50%;
+    position: relative;
+}
+
+.banner-card img {
+    position: absolute;
+    transform: translate(-50% , -50%);
+    top: 50%;
+    left: 50%;
+    filter: invert(1);
+
+}
 
 /* ***************************** */
 
