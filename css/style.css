@@ -86,6 +86,10 @@ img {
     background-color: var(--light-blue);
 }
 
+.bg-white-smoke {
+    background-color: #f5f5f5;
+}
+
 
 /* TYPOGRAPHY */
 
@@ -442,7 +446,6 @@ article:nth-child(4) .right-col-article button {
 .banner-col {
     height: calc(100vw / 3);
     width: calc(100% / 3);
-    border: 1px solid black;
     display: flex;
     flex-wrap: wrap;
 }
@@ -466,5 +469,25 @@ article:nth-child(4) .right-col-article button {
     border: 15px solid #d1e9cd;
 }
 
+.central-col {
+    overflow: auto;
+    padding: 50px;
+    display: block;    
+}
+
+.central-col img {
+    max-width: 50%;
+    margin-bottom: 60px;
+   
+}
+
+.central-col hr {
+ margin-bottom: 45px;
+ width: 20%;
+}
+
+.central-col hr + p {
+    margin-bottom: 60px;
+   }
 /* ***************************** */
 
